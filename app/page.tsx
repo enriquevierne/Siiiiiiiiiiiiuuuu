@@ -11,8 +11,8 @@ export default function Home() {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setUnity((prevUnity) => prevUnity + 6.044513475115741); // Functional update
-        }, 1000);
+            setUnity((prevUnity) => prevUnity + 0.30222567375578707); // Functional update
+        }, 50);
 
         // Cleanup interval on component unmount
         return () => clearInterval(interval);
